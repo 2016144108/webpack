@@ -1,0 +1,8 @@
+1、引入style-loader,css-loader
+npm install css-loader style-loader
+
+2、import '!style-loader!css-loader!./style.css'导入样式文件
+
+3、打包文件
+老版：webpack test.js bundle.js--将前者打包成后者
+新版：webpack test.js --output-filename bundle.js --output-path . --mode development
