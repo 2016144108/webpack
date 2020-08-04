@@ -1,0 +1,12 @@
+webpack:是一个前端资源加载/打包工具，将根据模块的依赖关系进行静态分析，并依据规则生成对应的静态资源。
+
+安装与使用
+1、先安装node.js
+2、npm install webpack -p--安装全局webpack
+3、npm install webpack-cli -p--安装全局webpack
+4、mkdir 项目文件夹
+5、cd 项目文件夹
+6、npm install --save-dev webpack--安装项目webpack
+7、npm install --save-dev webpack-cli--安装项目webpack-cli
+8、老版：webpack test.js bundle.js--将前者打包成后者
+      新版：webpack test.js --output-filename bundle.js --output-path . --mode development
