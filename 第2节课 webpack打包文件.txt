@@ -1,0 +1,6 @@
+单独文件打包
+老版：webpack test.js bundle.js--将前者打包成后者
+新版：webpack test.js --output-filename bundle.js --output-path . --mode development
+
+多个依赖文件打包
+文件之间采用export,import文件之间相互引用

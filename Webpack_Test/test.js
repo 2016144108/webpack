@@ -1,1 +1,3 @@
-document.write("欢迎使用webpack");
+import {str} from "./string";
+
+document.write(str);

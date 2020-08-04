@@ -86,14 +86,27 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./string.js":
+/*!*******************!*\
+  !*** ./string.js ***!
+  \*******************/
+/*! exports provided: str */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"str\", function() { return str; });\nlet str='gy你好';\r\n\n\n//# sourceURL=webpack:///./string.js?");
+
+/***/ }),
+
 /***/ "./test.js":
 /*!*****************!*\
   !*** ./test.js ***!
   \*****************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("document.write(\"欢迎使用webpack\");\r\n\n\n//# sourceURL=webpack:///./test.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _string__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./string */ \"./string.js\");\n\r\n\r\ndocument.write(_string__WEBPACK_IMPORTED_MODULE_0__[\"str\"]);\r\n\n\n//# sourceURL=webpack:///./test.js?");
 
 /***/ })
 
