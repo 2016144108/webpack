@@ -1,0 +1,10 @@
+npm install webpack-dev-server --save-dev安装
+
+package.json
+"scripts": {
+    "build": "webpack",--1
+    "server": "webpack-dev-server --entry ./src/js/test.js --output-filename ./dist/bundle.js"--2
+  },
+
+1-npm run build 打包文件
+2-npm run server 运行项目

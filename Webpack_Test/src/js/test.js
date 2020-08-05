@@ -8,5 +8,5 @@ document.write(str);
 
 document.write(`<div></div>`);
 $('div').click(function () {
-    alert("本省");
+    alert("点击了");
 })

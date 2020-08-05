@@ -1,1 +1,1 @@
-export let str='你好嘢';
+export let str='上海浦东开发区';

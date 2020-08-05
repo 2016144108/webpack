@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/js/test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "server": "webpack-dev-server --entry ./src/js/test.js --output-filename ./dist/bundle.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,7 +14,8 @@
     "jquery": "^3.5.1",
     "layui": "0.0.1",
     "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "css-loader": "^4.2.0",
