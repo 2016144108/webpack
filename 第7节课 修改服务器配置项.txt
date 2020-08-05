@@ -1,0 +1,11 @@
+修改则即时改变，实时监控
+package.json
+"scripts": {
+    "build": "webpack  --watch",
+    "server": "webpack-dev-server --entry ./src/js/test.js --output-filename ./dist/bundle.js  --watch"
+},
+修改端口
+webpack.config.js添加属性
+devServer: {
+    port:8088
+}

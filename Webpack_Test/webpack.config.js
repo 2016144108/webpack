@@ -14,6 +14,9 @@ const webpackconfig={
                 loader:'style-loader!css-loader'
             }
         ]
+    },
+    devServer: {
+        port:8088
     }
 }
 
