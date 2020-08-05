@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "bootstrap": "^4.5.1",
+    "jquery": "^3.5.1",
+    "layui": "0.0.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   },

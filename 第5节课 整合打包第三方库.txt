@@ -1,0 +1,6 @@
+1、安装第三方库
+npm install --save-dev jquery
+npm install --save-dev bootstrap
+npm install --save-dev layui
+
+2、文件引入
